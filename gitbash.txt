@@ -1,0 +1,134 @@
+
+vita1@VITA53 MINGW64 /d/samruddha/database
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+vita1@VITA53 MINGW64 /d/samruddha/database
+$ git init
+Initialized empty Git repository in D:/samruddha/database/.git/
+
+vita1@VITA53 MINGW64 /d/samruddha/database (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        sam.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+vita1@VITA53 MINGW64 /d/samruddha/database (master)
+$ git add sam.txt
+
+vita1@VITA53 MINGW64 /d/samruddha/database (master)
+$ git commit -m "Assignment added"
+[master (root-commit) b2fd78f] Assignment added
+ Committer: vita1 <vita1@vita.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 103 insertions(+)
+ create mode 100644 sam.txt
+
+vita1@VITA53 MINGW64 /d/samruddha/database (master)
+$ git remote add origin https://github.com/samruddhakarande/database-assignment.git
+
+vita1@VITA53 MINGW64 /d/samruddha/database (master)
+$
+
+vita1@VITA53 MINGW64 /d/samruddha/database (master)
+$
+
+vita1@VITA53 MINGW64 /d/samruddha/database (master)
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 851 bytes | 851.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/samruddhakarande/database-assignment.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+vita1@VITA53 MINGW64 /d/samruddha/database (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+vita1@VITA53 MINGW64 /d/samruddha/database (master)
+$ git commit -m "Changes done"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+        modified:   sam.txt
+
+no changes added to commit
+
+vita1@VITA53 MINGW64 /d/samruddha/database (master)
+$ git push -u origin master
+Everything up-to-date
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+vita1@VITA53 MINGW64 /d/samruddha/database (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   sam.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+vita1@VITA53 MINGW64 /d/samruddha/database (master)
+$ git add sam.txt
+
+vita1@VITA53 MINGW64 /d/samruddha/database (master)
+$ git commit -m "Changes done"
+[master 13da531] Changes done
+ Committer: vita1 <vita1@vita.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 68 insertions(+)
+
+vita1@VITA53 MINGW64 /d/samruddha/database (master)
+$ git push -u origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 882 bytes | 882.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/samruddhakarande/database-assignment.git
+   b2fd78f..13da531  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+vita1@VITA53 MINGW64 /d/samruddha/database (master)
+$
